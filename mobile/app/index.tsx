@@ -5,7 +5,7 @@ export default function Index() {
     <View
       style={styles.container}
     >
-      <Text>Edit app/index.tsx to edirt this screen.</Text>
+      <Text style={styles.heading}>Edit app/index.tsx to edirt this screen.</Text>
       <Link href="./about">Go to About</Link>
 
       <Image 
@@ -32,5 +32,10 @@ const styles = StyleSheet.create({
   image: {
     width: 200,
     height: 200,
+  },
+  heading: {
+    fontSize: 20,
+    color: "white",
+    marginBottom: 20,
   },
 })
